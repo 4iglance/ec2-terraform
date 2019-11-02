@@ -3,6 +3,6 @@ resource "aws_instance" "server" {
   instance_type = "${var.INSTANCE_TYPE}"
 
   tags = {
-    Name = "terraform-learning"
+    Name = "terraform-learn"
   }
 }
